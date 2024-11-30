@@ -4,12 +4,17 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  /* position: relative; */
 }
 
 .screen-header__title {
   font-size: 32px;
   font-weight: bold;
 }
-.hscreen-header__icons {
+.screen-header__icons span {
   margin-left: 25px;
+}
+.cog-container {
+  position: relative;
+  display: inline-block;
 }
