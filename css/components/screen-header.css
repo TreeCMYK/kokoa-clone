@@ -4,7 +4,10 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
-  /* position: relative; */
+  /* 모든부분적용 */
+  /* position: fixed;
+  width: 100%;
+  box-sizing: border-box; */
 }
 
 .screen-header__title {

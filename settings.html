@@ -4,10 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/3984af0569.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/3984af0569.js" crossorigin="anonymous"></script>
     <title>Settings - Kokoa Clone</title>
   </head>
   <body>
@@ -28,29 +25,38 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fas fa-angle-left fa-3x"></i>
+        <i class="fas fa-angle-left fa-3x" onclick="history.go(-1)"></i>
       </div>
       <div class="alt-header__column">
         <h1 alt-header__title>Settings</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-2x"></i>
+        <a href="find.html"><i class="fas fa-search fa-2x"></i></a>
       </div>
     </header>
 
     <main class="main-screen">
       <ul class="settings-list">
         <li class="settings__setting">
-          <i class="fas fa-bullhorn"></i>
-          <span>Notices</span>
+          <div class="setting__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="setting__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-flask"></i>
-          <span>Kokoa Lab</span>
+          <div class="setting__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kokoa Lab</span>
+          </div>
+          <div class="setting__setting-column"></div>
         </li>
         <li class="settings__setting">
-          <i class="fas fa-info-circle"></i>
-          <span>Version</span>
+          <div class="setting__setting-column">
+            <i class="fas fa-info-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="setting__setting-column">Latest Version</div>
         </li>
       </ul>
     </main>
@@ -58,9 +64,7 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
+          <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
@@ -69,14 +73,11 @@
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__btndot"></span
-            ><i class="fas fa-ellipsis-h fa-2x"></i
+            <span class="nav__btndot"></span><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
       </ul>
