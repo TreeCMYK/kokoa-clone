@@ -1,6 +1,6 @@
 .icon-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4개의 동일한 너비의 열 생성 */
+  grid-template-columns: repeat(4, 1fr);
   padding: 25px 0px;
   gap: 20px;
   justify-content: space-between;
